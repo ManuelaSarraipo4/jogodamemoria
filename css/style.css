@@ -11,7 +11,7 @@ body {
 
 .button-container h1 {
   font-size: 50px;
-  margin-bottom: 20px; 
+  margin-bottom: 20px;
 }
 
 .zb1 {
@@ -22,7 +22,6 @@ body {
 .button-wrapper {
   z-index: 10;
 }
-
 
 .btn {
   height: 30px;
@@ -38,25 +37,28 @@ body {
   gap: 16px;
   justify-content: center;
 
- 
   margin: 0 auto;
 }
 
 .memory-card {
   height: 200px;
-  width: 200px; 
+  width: 200px;
   perspective: 1000px;
   position: relative;
-  transition: .5s ease-in-out;
+  transition: 0.5s ease-in-out;
   transform-style: preserve-3d;
 }
 
-.container {
-padding: 40px 0;
+@media (max-width: 800px) {
+  .memory-card {
+    height: 50px;
+    width: 50px;
+  }
 }
 
-
-
+.container {
+  padding: 40px 0;
+}
 
 .front-face {
   height: 100%;
