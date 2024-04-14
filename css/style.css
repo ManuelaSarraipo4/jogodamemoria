@@ -51,8 +51,8 @@ body {
 
 @media (max-width: 800px) {
   .memory-card {
-    height: 80px;
-    width: 80px;
+    height: 100px;
+    width: 100px;
   }
 }
 
