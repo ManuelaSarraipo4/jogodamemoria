@@ -1,7 +1,7 @@
 let botao = document.querySelector(".btn");
 let botaoDiv = document.getElementById("buttons");
-let cartaAberta = null; // Armazena a carta atualmente aberta
-let pontos = 0; // Contador de pontos
+let cartaAberta = null; 
+let pontos = 0; 
 let pausado = false;
 
 function main(amount) {
@@ -68,29 +68,24 @@ function main(amount) {
       if (!this.classList.contains("flip")) {
         this.classList.add("flip");
 
-        // Se não houver carta aberta, atribua a carta atual
         if (cartaAberta === null) {
           cartaAberta = this;
         } else {
-          // Se a carta atual for diferente da carta aberta
           if (this !== cartaAberta) {
-            // Se as imagens correspondem, mantenha as cartas viradas
             if (
               this.querySelector(".front-face").src ===
               cartaAberta.querySelector(".front-face").src
             ) {
               cartaAberta = null;
               pontos++;
-              // Adicione aqui qualquer ação adicional após uma correspondência
             } else {
-              // Se as imagens não correspondem, desvire as cartas após 2 segundos
               pausado = true;
               setTimeout(function () {
                 cartaAberta.classList.remove("flip");
                 carta[index].classList.remove("flip");
                 cartaAberta = null;
                 pausado = false;
-              }, 2000);
+              }, 1500);
             }
           } else {
             cartaAberta = null;
