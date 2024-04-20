@@ -79,7 +79,7 @@ body {
   background-repeat: no-repeat;
   backface-visibility: hidden;
 }
-.pontuacao {
+#pontuacao {
   color: white;
   font-family: Verdana;
   font-weight: bold;
