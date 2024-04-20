@@ -80,8 +80,9 @@ body {
   backface-visibility: hidden;
 }
 .pontuacao {
-    font-size: 20px;
-    color: #FFF;
+    font-size: 50px;
+    color: 'white';
+    align-items: 'center';
 }
 
 .flip {
