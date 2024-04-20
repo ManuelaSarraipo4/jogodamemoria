@@ -78,6 +78,7 @@ function main(amount) {
             ) {
               cartaAberta = null;
               pontos++;
+              document.getElementById('pontos').textContent = pontos;
             } else {
               pausado = true;
               setTimeout(function () {
