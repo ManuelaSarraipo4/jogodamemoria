@@ -15,8 +15,8 @@ body {
 }
 
 .zb1 {
-  max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
-  margin-bottom: 20px; /* Adiciona um espaçamento entre a imagem e o botão */
+  max-width: 100%; 
+  margin-bottom: 20px; 
 }
 
 .button-wrapper {
@@ -78,6 +78,10 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   backface-visibility: hidden;
+}
+.pontuacao {
+    font-size: 20px;
+    color: #FFF;
 }
 
 .flip {
