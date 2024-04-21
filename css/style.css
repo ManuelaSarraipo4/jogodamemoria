@@ -79,12 +79,6 @@ body {
   background-repeat: no-repeat;
   backface-visibility: hidden;
 }
-#pontuacao {
-  color: white;
-  font-family: Verdana;
-  font-weight: bold;
-  text-align: center;
-}
 
 .flip {
   transform: rotateY(180deg);
