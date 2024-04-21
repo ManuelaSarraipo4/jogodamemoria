@@ -1,7 +1,6 @@
 let botao = document.querySelector(".btn");
 let botaoDiv = document.getElementById("buttons");
 let cartaAberta = null; 
-let pontos = 0; 
 let pausado = false;
 
 function main(amount) {
@@ -77,8 +76,6 @@ function main(amount) {
               cartaAberta.querySelector(".front-face").src
             ) {
               cartaAberta = null;
-              pontos++;
-              document.getElementById('pontos').textContent = pontos;
             } else {
               pausado = true;
               setTimeout(function () {
